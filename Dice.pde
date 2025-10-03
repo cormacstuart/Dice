@@ -82,7 +82,7 @@ void setup()
       }
       void show()
       {
-          fill(220);
+          fill(140+(int)(Math.random()*116),140+(int)(Math.random()*116),140+(int)(Math.random()*116));
           rect(myX-25, myY-25, 50, 50);
           
       }
