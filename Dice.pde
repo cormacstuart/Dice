@@ -8,7 +8,7 @@ void setup()
   void draw()
   {
     sum = 0;
-    fill(140);
+    fill(180);
     rect(-10,-10,830,830);
     for (int j = 0; j < 6; j++)
   {
@@ -83,7 +83,7 @@ void setup()
       void show()
       {
           fill(140+(int)(Math.random()*116),140+(int)(Math.random()*116),140+(int)(Math.random()*116));
-          rect(myX-25, myY-25, 50, 50);
+          rect(myX-25, myY-25, 50, 50, 10);
           
       }
   }
